@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 import mysql.connector  # Ensure MySQL connector is properly imported
 from customer import Cust_Win
-from room import Roombooking
+from room_booking import Roombooking
 from details import DetailsRoom
 
 
