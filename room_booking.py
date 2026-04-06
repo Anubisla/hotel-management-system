@@ -26,7 +26,7 @@ class Roombooking:
         lbl_title.place(x=0, y=0, width=1595, height=50)
 
         # Load and display the logo image
-        img2 = Image.open(r"c:\Users\avika\OneDrive\Desktop\taj logo.jpg")
+        img2 = Image.open(r"c:\Users\anuradha\OneDrive\Desktop\taj logo.jpg")
         img2 = img2.resize((100, 40), Image.LANCZOS)
         self.photoimg2 = ImageTk.PhotoImage(img2)
         lbl_img = Label(self.root, image=self.photoimg2, bd=4, relief=RIDGE)
@@ -127,7 +127,7 @@ class Roombooking:
         btnReset.grid(row=0, column=3, padx=2, pady=2)
 
         # Image
-        img3 = Image.open(r"c:\Users\avika\OneDrive\Desktop\master-bedroom-1-1.jpg")
+        img3 = Image.open(r"c:\Users\anuradha\OneDrive\Desktop\master-bedroom-1-1.jpg")
         img3 = img3.resize((600, 290), Image.LANCZOS)
         self.photoimg3 = ImageTk.PhotoImage(img3)
         lbl_img = Label(self.root, image=self.photoimg3, bd=4, relief=RIDGE)
