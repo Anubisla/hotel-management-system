@@ -15,7 +15,7 @@ class Register:
 
         # Load the background image
         try:
-            self.bg = ImageTk.PhotoImage(file=r"c:\Users\avika\OneDrive\Desktop\taj logo.jpg")
+            self.bg = ImageTk.PhotoImage(file=r"c:\Users\anuradha\OneDrive\Desktop\taj logo.jpg")
             lbl_bg = Label(self.root, image=self.bg)
             lbl_bg.place(x=0, y=0, relwidth=1, relheight=1)
         except Exception as e:
@@ -23,7 +23,7 @@ class Register:
 
         # Load the left-side image
         try:
-            self.bg1 = ImageTk.PhotoImage(file=r"c:\Users\avika\OneDrive\Desktop\side reg.jpg")
+            self.bg1 = ImageTk.PhotoImage(file=r"c:\Users\anuradha\OneDrive\Desktop\side reg.jpg")
             left_lbl = Label(self.root, image=self.bg1)
             left_lbl.place(x=220, y=100, width=320, height=550)
         except Exception as e:
