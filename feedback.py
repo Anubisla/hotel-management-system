@@ -18,10 +18,10 @@ class HotelManagementSystem:
         self.logo_height = 300  # Height for the logo
         
         # Load and display the main hotel image
-        self.load_image(r"c:\Users\avika\OneDrive\Desktop\taj.jpg", self.img_width, self.img_height, 0)
+        self.load_image(r"c:\Users\anuradha\OneDrive\Desktop\taj.jpg", self.img_width, self.img_height, 0)
 
         # Load and display the logo image next to the main image
-        self.load_image(r"c:\Users\avika\OneDrive\Desktop\taj logo.jpg", self.logo_width, self.logo_height, 0, offset=self.img_width)
+        self.load_image(r"c:\Users\anuradha\OneDrive\Desktop\taj logo.jpg", self.logo_width, self.logo_height, 0, offset=self.img_width)
 
         # Create and position the title label below the images
         self.create_title_label()
