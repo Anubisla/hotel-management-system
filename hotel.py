@@ -14,7 +14,7 @@ class LoginWindow:
         self.root.geometry("1550x800+0+0")
 
         # Background Image
-        self.bg = ImageTk.PhotoImage(file=r"c:\Users\avika\OneDrive\Desktop\login page background.jpg")
+        self.bg = ImageTk.PhotoImage(file=r"c:\Users\anuradha\OneDrive\Desktop\login page background.jpg")
         lbl_bg = Label(self.root, image=self.bg)
         lbl_bg.place(x=0, y=0, relwidth=1, relheight=1)
 
@@ -23,7 +23,7 @@ class LoginWindow:
         frame.place(x=610, y=170, width=340, height=450)
 
         # Login Logo
-        img1 = Image.open(r"c:\Users\avika\OneDrive\Desktop\login.jpg")
+        img1 = Image.open(r"c:\Users\anuradha\OneDrive\Desktop\login.jpg")
         img1 = img1.resize((100, 100), Image.LANCZOS)
         self.photoimage1 = ImageTk.PhotoImage(img1)
         lblimg1 = Label(frame, image=self.photoimage1, bg="black", borderwidth=0)
@@ -111,10 +111,10 @@ class HotelManagementSystem:
         self.logo_height = 300  # Height for the logo
 
         # Load and display the main hotel image
-        self.load_image(r"c:\Users\avika\OneDrive\Desktop\taj.jpg", self.img_width, self.img_height, 0)
+        self.load_image(r"c:\Users\anuradha\OneDrive\Desktop\taj.jpg", self.img_width, self.img_height, 0)
 
         # Load and display the logo image next to the main image
-        self.load_image(r"c:\Users\avika\OneDrive\Desktop\taj logo.jpg", self.logo_width, self.logo_height, 0, offset=self.img_width)
+        self.load_image(r"c:\Users\anuradha\OneDrive\Desktop\taj logo.jpg", self.logo_width, self.logo_height, 0, offset=self.img_width)
 
         # Create and position the title label below the images
         self.create_title_label()
@@ -174,14 +174,14 @@ class HotelManagementSystem:
         logout_btn.grid(row=4, column=0, pady=1)
         
         
-        img3 = Image.open(r"c:\Users\avika\OneDrive\Desktop\view1.jpg")
+        img3 = Image.open(r"c:\Users\anuradha\OneDrive\Desktop\view1.jpg")
         img3 = img3.resize((1310, 375), Image.LANCZOS)
         self.photoimg3 = ImageTk.PhotoImage(img3)
         
         lbling = Label(main_frame, image=self.photoimg3, bd=4, relief=RIDGE)
         lbling.place(x=225, y=0, width=1310, height=375)
         
-        img4 = Image.open(r"c:\Users\avika\OneDrive\Desktop\tajhall.jpg")
+        img4 = Image.open(r"c:\Users\anuradha\OneDrive\Desktop\tajhall.jpg")
         img4 = img4.resize((230, 210), Image.LANCZOS)
         self.photoimg4 = ImageTk.PhotoImage(img4)
         
