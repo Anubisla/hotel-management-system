@@ -29,7 +29,7 @@ class Cust_Win:
         lbl_title.place(x=0, y=0, width=1295, height=50)
 
         # Load and display the logo image
-        img2 = Image.open(r"c:\Users\avika\OneDrive\Desktop\taj logo.jpg")
+        img2 = Image.open(r"c:\Users\anuradha\OneDrive\Desktop\taj logo.jpg")
         img2 = img2.resize((400, 195), Image.LANCZOS)
         self.photoimg2 = ImageTk.PhotoImage(img2)
         lbl_img = Label(self.root, image=self.photoimg2, bd=4, relief=RIDGE)
