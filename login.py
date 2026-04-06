@@ -16,7 +16,7 @@ class LoginWindow:
         self.root.geometry("1550x800+0+0")
 
         # Background Image
-        self.bg = ImageTk.PhotoImage(file=r"c:\Users\avika\OneDrive\Desktop\login page background.jpg")
+        self.bg = ImageTk.PhotoImage(file=r"c:\Users\anuradha\OneDrive\Desktop\login page background.jpg")
         lbl_bg = Label(self.root, image=self.bg)
         lbl_bg.place(x=0, y=0, relwidth=1, relheight=1)
 
@@ -25,7 +25,7 @@ class LoginWindow:
         frame.place(x=610, y=170, width=340, height=450)
 
         # Login Logo
-        img1 = Image.open(r"c:\Users\avika\OneDrive\Desktop\login.jpg")
+        img1 = Image.open(r"c:\Users\anuradha\OneDrive\Desktop\login.jpg")
         img1 = img1.resize((100, 100), Image.LANCZOS)
         self.photoimage1 = ImageTk.PhotoImage(img1)
         lblimg1 = Label(frame, image=self.photoimage1, bg="black", borderwidth=0)
